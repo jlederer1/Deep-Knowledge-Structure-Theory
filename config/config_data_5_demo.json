@@ -1,0 +1,27 @@
+{
+    "ID" : "DKST_data_v02_5_demo",
+    "d_type" : "float32",
+    "device" : "cuda",
+    "seed": null,
+
+    "SR_ID" : "SR_max5_min5_n7000_prosets_null_demo",
+    "max_items": 5,
+    "min_items": 5,
+    "n_samples": 7000,
+    "antisymmetric": false,
+    "EOS_TOKEN" : "<eos>",
+    "PAD_TOKEN" : "<pad>",
+
+    "KS_ID" : "KS_max5_min5_n7000_prosets_null_demo",
+
+    "CE_ID" : "CE_n7000_N1_beta-eta-N012006_s80-130-180-240_null_demo",
+    "normalized" : true,
+    "beta" : [0.05, 0.07, 0.1, 0.1, 0.1, 0.13, 0.13, 0.15],
+    "eta" : [0.05, 0.07, 0.1, 0.13, 0.15],
+    "sample_sizes" : [80, 130, 180, 240],
+
+    "standadized" : true,
+
+    "phase_1_split" : [0.2, 0.2, 0.6],
+    "phase_2_split" : [0.2, 0.2, 0.6]
+}

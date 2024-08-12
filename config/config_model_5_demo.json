@@ -1,0 +1,25 @@
+{
+    "d_type" : "float32",
+    "seed": null,
+    "device" : "cuda",
+
+    "n_items" : 5,
+
+    "ID_decoder" : "DKST_Decoder_v02-05_demo",
+    "BATCH_SIZE_1" : 32,
+    "hidden_dim" : 1024,
+    "n_layers" : 1, 
+    "n_heads" : 4, 
+    "dropout" : 0.3,
+    "LR_1" : 0.001,
+    "LR_1_decay" : 0.93,
+    "clip_norm" : 0.8,
+    "activation" : "relu",
+    "length_wheight" : 0.7,
+    "length_wheight_decay" : 0.80,
+
+    "ID_regressor" : "DKST_Regressor_v02-05_demo",
+    "BATCH_SIZE_2" : 32,
+    "LR_2" : 0.001, 
+    "LR_2_decay" : 0.98
+}
